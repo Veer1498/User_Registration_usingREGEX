@@ -30,5 +30,10 @@ public class UserRegistration {
         String email = sc.next(); //given : abc.xyz@bl.co.in
         System.out.println(Pattern.matches("[a-z]*.[a-z]*@[b]+[l]+.[c]+[o]+.[i]+[n]+", email));
     }
+    public void mobileNumber() {
+        System.out.println("Please Enter Valid Mobile Number");
+        String number = sc.next(); //given : 91 9919819801
+        System.out.println(Pattern.matches("[0-9]{2}\s[0-9]{10}", number));
+    }
 
 }
