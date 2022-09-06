@@ -40,7 +40,7 @@ public class UserRegistration {
     public void mobileNumber() {
         System.out.println("Please Enter Valid Mobile Number");
         String number = sc.next(); //given : 91 9919819801
-        System.out.println(Pattern.matches("[0-9]{2}\s[0-9]{10}", number));
+        System.out.println(Pattern.matches("[0-9]{2}[\s]+[0-9]{10}", number));
     }
     //password Function
     public void password() {
