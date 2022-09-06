@@ -25,4 +25,10 @@ public class UserRegistration {
         String lastName = sc.next();
         System.out.println(Pattern.matches("[A-Z][a-z]{3,}", lastName));
     }
+    public void email() {
+        System.out.println("Please Enter Valid Email");
+        String email = sc.next(); //given : abc.xyz@bl.co.in
+        System.out.println(Pattern.matches("[a-z]*.[a-z]*@[b]+[l]+.[c]+[o]+.[i]+[n]+", email));
+    }
+
 }

@@ -10,5 +10,6 @@ public class UserMain {
         userData.welcome();
         userData.firstName();
         userData.lastName();
+        userData.email();
     }
 }
