@@ -20,4 +20,9 @@ public class UserRegistration {
         System.out.println(Pattern.matches("[A-Z][a-z]{3,}",firstName));
 
     }
+    public void lastName() {
+        System.out.println("Please Enter Valid Last Name");
+        String lastName = sc.next();
+        System.out.println(Pattern.matches("[A-Z][a-z]{3,}", lastName));
+    }
 }
