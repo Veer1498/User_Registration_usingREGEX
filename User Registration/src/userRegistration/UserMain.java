@@ -12,5 +12,6 @@ public class UserMain {
         userData.lastName();
         userData.email();
         userData.mobileNumber();
+        userData.password();
     }
 }
