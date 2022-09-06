@@ -7,11 +7,11 @@ public class UserMain {
     public static void main(String[] args) {
         UserRegistration userData = new UserRegistration();
 
-        userData.welcome();
-        userData.firstName();
-        userData.lastName();
-        userData.email();
-        userData.mobileNumber();
+//        userData.welcome();
+//        userData.firstName();
+//        userData.lastName();
+//        userData.email();
+//        userData.mobileNumber();
         userData.password();
     }
 }

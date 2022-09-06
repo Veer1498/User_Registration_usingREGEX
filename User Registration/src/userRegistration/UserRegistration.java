@@ -38,7 +38,7 @@ public class UserRegistration {
 
     public void password() {
         System.out.println("Please Enter Valid Password");
-        String password = sc.next(); //given : 91 9919819801
-        System.out.println(Pattern.matches("[A-z0-9]{8,}", password));
+        String password = sc.next();
+        System.out.println(Pattern.matches("[A-Z]+[A-z0-9]{7,}", password));
     }
 }
