@@ -15,7 +15,7 @@ public class UserMain {
         userData.welcome();
 
         while(true){
-            System.out.println("Please Enter Option 1.FirstName 2.LastName 3.Email 4.Mobile Number 5.Password 0.Exit");
+            System.out.println("Please Enter Option 1.FirstName 2.LastName 3.Email 4.Mobile Number 5.Password 6.Valid Email 0.Exit");
             int option = userData.sc.nextInt();
 
             switch(option){
@@ -33,6 +33,9 @@ public class UserMain {
                     break;
                 case 5:
                     userData.password();
+                    break;
+                case 6:
+                    userData.emailsCheck();
                     break;
                 case 0 :
                     System.exit(0);
