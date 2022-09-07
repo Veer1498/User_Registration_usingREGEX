@@ -29,6 +29,7 @@ public class UserRegistration {
         System.out.println("Please Enter Valid Last Name");
         String lastName = sc.next();
         System.out.println(Pattern.matches("[A-Z][a-z]{3,}", lastName));
+
     }
     //Email Function
     public void email() {
@@ -47,5 +48,11 @@ public class UserRegistration {
         System.out.println("Please Enter Valid Password");
         String password = sc.next();
         System.out.println(Pattern.matches("[A-Z]+[A-z0-9]{6,}[@]+[0-9]+", password));
+    }
+    public void emailsCheck(){
+        System.out.println("Please Enter Sample Emails Given");
+        String email = sc.next();
+        System.out.println(Pattern.matches("[A-z0-9.]*[.+-]?[A-z0-9.]*[@]+[a-z0-9]*[.]+[a-z]{2,}([.]+[a-z]{2,})?", email));
+
     }
 }
